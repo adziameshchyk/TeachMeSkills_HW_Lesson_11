@@ -1,5 +1,4 @@
-# Strings
-
+# Files. IO streams
 >This repository was created for homework in lessons №11 - "Files. IO streams".
 ## Tasks
 
