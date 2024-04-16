@@ -72,33 +72,4 @@ After entering the application will create two output files in the reports direc
 
 ## Authors
 
-- [Your Name](https://github.com/yourusername)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
-3. Build the project.
-
-### Running the Application
-
-The application expects the path to the input file as a command-line argument. You can run the application from the command line as follows:
-
-```bash
-java -cp out/production/classes com.mycompany.docvalidator.Main /path/to/input/file
-```
-
-Replace `/path/to/input/file` with the actual path to your input file.
-
-The application will create two output files in the project directory:
-
-- `validDocuments.txt` - contains valid document numbers.
-- `invalidDocuments.txt` - contains invalid document numbers and the reasons for invalidity.
-
-## Built With
-
-- [Java](https://www.oracle.com/java/)
-
-## Authors
-
 - [Aliaksandr Dziameshchyk](https://github.com/adziameshchyk)
