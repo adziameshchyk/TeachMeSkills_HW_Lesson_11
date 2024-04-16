@@ -1,6 +1,6 @@
-package com.tms.files_io_streams_mandatory_tasks.task_0;
+package com.tms.files_io_streams.mandatory_tasks.task_0;
 
-import com.tms.files_io_streams_mandatory_tasks.task_0.models.DocValidator;
+import com.tms.files_io_streams.mandatory_tasks.task_0.models.DocValidator;
 
 import java.io.*;
 
@@ -22,6 +22,7 @@ import java.io.*;
 public class Runner {
 
     public static void main(String[] args) {
+        System.out.println("Enter the path to the file with document numbers.");
         String inputFilePath;
         try (BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in))) {
             inputFilePath = bufferedReader.readLine();

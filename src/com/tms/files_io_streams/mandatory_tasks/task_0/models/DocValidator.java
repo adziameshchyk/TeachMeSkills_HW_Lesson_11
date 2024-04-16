@@ -1,4 +1,4 @@
-package com.tms.files_io_streams_mandatory_tasks.task_0.models;
+package com.tms.files_io_streams.mandatory_tasks.task_0.models;
 
 import java.io.*;
 import java.nio.file.Files;
@@ -9,7 +9,7 @@ import java.util.List;
 
 public class DocValidator {
 
-    private static final Path REPORT_DIR = Paths.get("src/com/tms/files_io_streams_mandatory_tasks/task_0/reports");
+    private static final Path REPORT_DIR = Paths.get("reports");
     private static final File VALID_DOC_NUMBERS = new File(REPORT_DIR.toFile(), "validDocNumbers.txt");
     private static final File INVALID_DOC_NUMBERS = new File(REPORT_DIR.toFile(), "invalidDocNumbers.txt");
 
